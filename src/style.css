@@ -1,0 +1,31 @@
+/* Eliminar márgenes y padding por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Asegurar que html y body ocupen toda la pantalla */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+  /* Eliminar scrollbars */
+}
+
+/* Hacer que el contenedor principal ocupe toda la pantalla */
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Hacer que el canvas también ocupe todo el espacio */
+canvas {
+  /* Eliminar espacio extra inline */
+  width: 100%;
+  height: 100%;
+}
